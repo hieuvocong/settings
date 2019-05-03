@@ -8,6 +8,7 @@
 Use 'black'
 
 # settings.json
+```json
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Predawn",
@@ -44,3 +45,4 @@ Use 'black'
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": false
 }
+```
