@@ -1,8 +1,8 @@
 # Extensions
+- Remote Development
 - Python
 - Predawn Theme Kit
 - Ayu
-- Code Runner
 
 # Format document
 Use 'black'
@@ -32,19 +32,13 @@ Use 'black'
     "debug.console.fontFamily": "Source Code Pro",
     "debug.console.fontSize": 16,
     "editor.formatOnSave": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "python.pythonPath": "C:\\Users\\Cong-Hieu\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-    "python.linting.pylintPath": "C:\\Users\\Cong-Hieu\\AppData\\Roaming\\Python\\Python37\\Scripts\\pylint.exe",
+    "python.pythonPath": "/usr/bin/python3",
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.linting.pylintArgs": [
         "--disable = F0401"
     ],
-    "python.formatting.blackPath": "C:\\Users\\Cong-Hieu\\AppData\\Roaming\\Python\\Python37\\Scripts\\black.exe",
-    "python.formatting.provider": "black",
-    "code-runner.executorMap": {
-        "python": "$pythonPath -u $fullFileName"
-    },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false
+    "python.formatting.blackPath": "/usr/local/bin/black",
+    "python.formatting.provider": "black"
 }
 ```
 
